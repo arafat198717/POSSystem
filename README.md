@@ -31,18 +31,8 @@ A full-featured offline-first Point of Sale desktop application built with **C# 
 - Windows (WinForms requirement)
 - PHP 8+ with MySQL/MariaDB (for sync API, optional for standalone use)
 
-### Run the client
-```bash
-git clone https://github.com/<your-username>/POSSystem.git
-cd POSSystem
-dotnet restore
-dotnet run --project POSSystem
-```
 
 On first launch, a local SQLite database is created automatically at:
-```
-%APPDATA%\POSSystem\pos.db
-```
 
 Default login:
 ```
