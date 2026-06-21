@@ -17,7 +17,7 @@ A full-featured offline-first Point of Sale desktop application built with **C# 
 - 💾 **Database Backup & Restore** — one-click backup of local SQLite database
 
 ## Tech Stack
-
+runtime folder is part of the system so unzip it and make sure only POSSystem/runtimes/ all others files. 
 **Client**
 - C# / .NET 10 — WinForms
 - SQLite (local-first storage)
